@@ -17,13 +17,16 @@ A puzzle to work out how to set the switches to get the last led to light up.
 
 By switching different input, the LEDs will switch on consecutively, and try to get the last LED light up.
 
-| input 0 to 7 | AND | output OR | output AND 2 | output XOR |
-| 00000000 | output AND | output OR | output AND 2 | output XOR |
-| 00000001 | output AND | output OR | output AND 2 | output XOR |
-| 00000010 | output AND | output OR | output AND 2 | output XOR |
-| 00000011 | output AND | output OR | output AND 2 | output XOR |
-| 00000100 | output AND | output OR | output AND 2 | output XOR |
-| 00000000 | output AND | output OR | output AND 2 | output XOR |
+| input 0 to 7 | output AND | output OR | output AND 2 | output XOR |
+---------------------------------------------------------------------
+|   00000000   | output AND | output OR | output AND 2 | output XOR |
+|   00000001   | output AND | output OR | output AND 2 | output XOR |
+|   00000010   | output AND | output OR | output AND 2 | output XOR |
+|   00000011   | output AND | output OR | output AND 2 | output XOR |
+|   00000100   | output AND | output OR | output AND 2 | output XOR |
+|   00000101   | output AND | output OR | output AND 2 | output XOR |
+|   00000110   | output AND | output OR | output AND 2 | output XOR |
+|   00000111   | output AND | output OR | output AND 2 | output XOR |
 
 ## External hardware
 
