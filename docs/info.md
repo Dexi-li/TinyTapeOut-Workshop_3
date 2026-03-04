@@ -9,12 +9,22 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+AND, OR and XOR gates are connected, each state has an LED informing the data status.
+
+A puzzle to work out how to set the switches to get the last led to light up.
 
 ## How to test
 
-Explain how to use your project
+By switching different input, the LEDs will switch on consecutively, and try to get the last LED light up.
+
+| input 0 to 7 | AND | output OR | output AND 2 | output XOR |
+| 00000000 | output AND | output OR | output AND 2 | output XOR |
+| 00000001 | output AND | output OR | output AND 2 | output XOR |
+| 00000010 | output AND | output OR | output AND 2 | output XOR |
+| 00000011 | output AND | output OR | output AND 2 | output XOR |
+| 00000100 | output AND | output OR | output AND 2 | output XOR |
+| 00000000 | output AND | output OR | output AND 2 | output XOR |
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+LED display
